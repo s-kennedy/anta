@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8" name="viewport" content="width=device-width, initial-scale=1">
+  <title>ANTA Translation Services</title>
+  <link href='https://fonts.googleapis.com/css?family=Roboto:100,200,300,400&subset=cyrillic,latin' rel='stylesheet' type='text/css'>
+  <link href='https://fonts.googleapis.com/css?family=Playfair+Display' rel='stylesheet' type='text/css'>
+  <link href="css/custom.css" rel="stylesheet" type="text/css" media="all" />
+  <script type="text/javascript" src="js/custom.js"></script>
+</head>
+<body>
+
+<!-- navigation -->
+  <div class="main_menu">
+    <nav class="navbar navbar-default">
+      <div class="container-fluid">
+
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar-collapse-1">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="#"><img src="/anta-logo.png" alt="ANTA" height="30px"></a>
+        </div>
+
+        <div class="collapse navbar-collapse" id="navbar-collapse-1">
+          <ul class="nav navbar-nav">
+            <li class="active" data-scroll><a href="#rates"><%= t ".quote" %></a><span class="sr-only">(current)</span></li>
+            <li><a href="#company" data-scroll><%= t '.company' %></a></li>
+            <li><a href="#services" data-scroll><%= t '.services' %></a></li>
+            <li><a href="#clients" data-scroll><%= t ".clients" %></a></li>
+            <li><a href="#rates" data-scroll><%= t ".rates" %></a></li>
+          </ul>
+
+          <div id="menu_languages">
+            <ul class="nav navbar-nav navbar-right">
+              <li id="English"><%= link_to "EN", locale: "en" %></li>
+              <li id="French"><%= link_to "FR", locale: "fr" %></li>
+              <li id="Russian"><%= link_to "PY", locale: "ru" %></li>
+            <ul>          
+          </div>
+
+        </div>
+
+      </div>
+    </nav>
+  </div>
+
+<!-- /navigation -->
+
+<!-- Jumbotron -->
+  <div class="jumbotron">
+    <div class="container">
+      <h1><%= t ".header_title" %></h1>
+      <h2><%= t ".header_subtitle" %></h2>
+    </div>
+  </div>
+
+<!-- /jumbotron -->
+
+  
+  <div class="invisible_side_menu_fixed"></div>
+
+  <div id="main">
+
+<!-- side menu -->
+    <div class="row side_menu_container">    
+      <div class="invisible_side_menu_static"></div>
+      <div class="side_menu">
+        <ul class="side_menu_links list-unstyled">
+          <li id="side_menu_company"><a href="#company" data-scroll><%= t ".company" %></a></li>
+          <li id="side_menu_services"><a href="#services" data-scroll><%= t ".services" %></a></li>
+          <li id="side_menu_clients"><a href="#clients" data-scroll><%= t ".clients" %></a></li>
+          <li id="side_menu_rates"><a href="#rates" data-scroll><%= t ".rates" %></a></li>
+        </ul>    
+      </div>
+<!-- /side menu -->
+
+<!-- company section -->
+      <div class="section" id="company">
+      <div class="row">
+        <div class="company inner_content">
+        
+          <div id="company_title"><h1><%= t ".company" %></h1></div>
+
+          <div class="company" id="company_text">
+
+              <p class="lead"> <%= t ".company_lead" %></p>
+
+              <p><%= t ".company_p1" %></p>
+            
+              <p><%= t ".company_p2" %> </p>
+              <p> <%= t ".company_p3" %></p>
+              
+              <p><%= t ".company_p4" %></p>
+              <ul class="list-unstyled">
+                <li class="col-sm-4"><span class="glyphicon glyphicon-usd" aria-hidden="true"></span>
+                  <h4><%= t ".company_list_header1" %></h4>
+                  <p><%= t ".company_list_text1" %></p>
+                </li>
+                <li class="col-sm-4"><span class="glyphicon glyphicon-time" aria-hidden="true"></span>
+                  <h4><%= t ".company_list_header2" %></h4>
+                  <p><%= t ".company_list_text2" %></p>
+                </li>
+                <li class="col-sm-4"><span class="glyphicon glyphicon-certificate" aria-hidden="true"></span>
+                  <h4><%= t ".company_list_header3" %></h4>
+                  <p><%= t ".company_list_text3" %></p>
+                </li>
+              </ul>    
+          </div>
+        </div>
+
+      </div>
+    </div>
+    <!-- </div>  -->
+<!-- /company section -->
+  
+<!-- services section -->
+    <div class="section" id="services">
+        <div class="row">
+          <div class="services inner_content">
+                        
+            <div class="services" id="services_title"><h1><%= t ".services" %></h1></div>
+
+            <div class="services" id="services_text">
+                <p> <%= t ".services_para1" %></p>
+                
+                <p><%= t ".services_para2" %></p>
+
+                <ul>
+                  <li><%= t ".services_li1" %> </li>
+                  <li><%= t ".services_li2" %> </li>
+                  <li><%= t ".services_li3" %> </li>
+                  <li><%= t ".services_li4" %> </li>
+                  <li><%= t ".services_li5" %> </li>
+                  <li><%= t ".services_li6" %> </li>
+                </ul>
+                
+                <p><%= t ".services_para3" %></p>
+            </div>
+          </div>
+        </div>
+    </div>
+<!-- /services section -->
+
+<!-- clients section -->
+    <div class="section" id="clients">
+      <div class="row">
+        <div class="clients inner_content">
+          
+          <div class="clients" id="clients_title"><h1><%= t ".clients" %></h1></div>
+
+          <div class="clients" id="clients_text">
+              <p> <%= t ".clients_para1" %></p>
+
+              <ul>
+                <li><%= t ".clients_li1" %></li>
+                <li><%= t ".clients_li2" %></li>
+                <li><%= t ".clients_li3" %></li>
+                <li><%= t ".clients_li4" %></li>
+                <li><%= t ".clients_li5" %></li>
+                <li><%= t ".clients_li6" %></li>
+              </ul>
+              
+              <p><%= t ".clients_para2" %></p>
+          </div>
+        </div>
+      </div>
+    </div>
+<!-- /clients section -->
+      
+
+<!-- rates section -->
+    <div class="section" id="rates">
+      <div class="row">
+        <div class="rates inner_content">
+          <div class="rates" id="rates_title"><h1><%= t ".rates" %></h1></div>
+
+          <div class="rates" id="rates_text">
+              <p><%= t ".rates_intro1" %></p>
+              <p><%= t ".rates_intro2" %></p>
+          </div>
+
+          <form action="https://getsimpleform.com/messages?form_api_token=41618457d45ad9b4b9d83841d182f499" method="POST">
+            <div class="form-group">
+              <label for="name">Name</label>
+              <input type="text" name="name" class="form-control" id="name" required>
+            </div>
+            <div class="form-group">
+              <label for="company">Company name</label>
+              <input type="text" name="company" class="form-control" id="company" required>
+            </div>
+            <div class="form-group">
+              <label for="langfrom">Language of original document</label>
+              <input type="text" name="langfrom" class="form-control" id="language-from" required>
+            </div>
+            <div class="form-group">
+              <label for="langto">Language of translation</label>
+              <input type="text" name="langto" class="form-control" id="language-to" required>
+            </div>
+            <div class="form-group">
+              <label for="email">Your email address</label>
+              <input type="text" name="email" class="form-control" id="email" required>
+            </div>
+            <div class="form-group">
+              <label for="phone">Your phone number</label>
+              <input type="text" name="phone" class="form-control" id="phone" >
+            </div>
+            <div class="form-group">
+              <label for="comments">Any additional comments?</label>
+              <textarea name="comments" class="form-control" id="comments">
+            </div>
+            <div class="form-group">
+              <label for="document">For a more accurate quote, attach the document to be translated</label>
+              <input type="file" name="document" class="form-control" id="document">
+            </div>
+            <div class="centered">
+              <button class="btn btn-red">Submit</button>
+            </div>
+          </form>
+
+        </div>
+      </div>
+    </div>
+<!-- /rates section -->
+
+</div> <!-- /main? -->
+      
+
+<!-- </div> container-fluid -->
+
+<!-- footer -->
+  <div class="footer text-muted col-md-12">
+    <div class="footer-left col-md-6">
+      <ul id="contact" class="list-unstyled"> 
+        <li><span class="glyphicon glyphicon-envelope" aria-hidden="true"></span>anta@antatranslations.com</li>
+        <li><span class="glyphicon glyphicon-earphone" aria-hidden="true"></span>(416) 766-4921</li>
+        <li><span class="glyphicon glyphicon-open-file" aria-hidden="true"></span>(416) 760-9640</li>
+      </ul>
+    </div>
+      
+    <div class="footer-right col-md-6">
+      <ul id="address" class="list-unstyled">
+      <li><%= t ".address1" %></li>
+      <li><%= t ".address2" %></li>
+      <li><%= t ".address3" %></li> 
+    </div>
+
+  </div>
+<!-- /footer -->
+    
+   
+
+</body>
+</html>

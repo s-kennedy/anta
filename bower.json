@@ -1,0 +1,27 @@
+{
+  "name": "anta_static",
+  "homepage": "www.antatranslations.com",
+  "authors": [
+    "Sharon <sharon.peishan.kennedy@gmail.com>"
+  ],
+  "description": "commercial website for anta translations",
+  "main": "index.html",
+  "keywords": [
+    "anta",
+    "translations",
+    "translation",
+    "toronto"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "bootstrap": "^3.3.6",
+    "smooth-scroll": "^1.0.1"
+  }
+}

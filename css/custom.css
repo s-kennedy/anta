@@ -1,0 +1,232 @@
+
+body {
+  position: relative;
+  font-family: 'Roboto', sans-serif;
+}
+
+p, li {
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 180%
+}
+
+input, textarea {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 200;
+  font-size: 16px;
+}
+
+label {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 300;
+}
+
+.glyphicon {
+  padding: 0 15px;
+}
+
+.jumbotron { 
+  height: 500px;
+  color: #fff;
+  background: url(https://upload.wikimedia.org/wikipedia/commons/thumb/6/61/Flat_earth_night.png/1280px-Flat_earth_night.png) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  position: relative;
+}
+
+
+.jumbotron h1 {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 100;
+  font-size: 80px;
+}
+
+.jumbotron h2 {
+  color: #F70707;
+  font-family: 'Playfair Display', serif;
+  font-size: 40px;
+}
+
+.jumbotron .container {
+  position: absolute;
+  width: 100%;
+  text-align: center;
+  bottom: 50px;
+}
+
+.flash-messages {
+  width: 100%;
+  height: 40px;
+  background-color: #F70707;
+  color: #fff;
+  text-align: center;
+  padding: 10px;
+}
+
+#main h1 {
+  color: #F70707;
+  font-family: 'Playfair Display', serif;
+  line-height: 2.0;
+  text-align: center;
+}
+
+body {
+  background: transparent;
+}
+
+.company .glyphicon {
+  font-size: 44px;
+  color: #F70707;
+  padding-left: 25%;
+}
+
+.company li {
+  margin: 30px 0;
+}
+
+.section {
+  width: 100%;
+  margin-left: 0;
+  padding-bottom: 40px;
+  padding-top: 40px;
+}
+
+#services, #rates {
+  background-color: #EEEEEE;
+}
+
+.inner_content {
+  width: 60%;
+  margin: auto;
+}
+
+.row {
+  margin-left: 0;
+  margin-right: 0;
+}
+
+.navbar {
+  margin-bottom: 0;
+}
+
+.side_menu_container{
+  position: relative;
+}
+
+.invisible_side_menu_fixed {
+  width: 120px;
+  height: 150px;
+  background: transparent;
+  position: fixed;
+  right: 0px;
+  top: 35%;
+}
+
+.invisible_side_menu_static {
+  width: 120px;
+  height: 150px;
+  background: transparent;
+  position: absolute;
+  right: 0px;
+  top: 33%;
+}
+
+.side_menu {
+  background-color: #F70707;
+  width: 120px;
+
+  border-radius: 10px 0 0 10px;
+  position: absolute;
+  right: 0px;
+  top: 33%;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  padding-left: 8px;
+}
+
+.side_menu a {
+  color: white;
+  font-size: 16px;
+}
+
+.side_menu li {
+  padding: 5px;
+}
+
+.side_menu a:hover {
+  font-weight: bold;
+  background-color: none;
+  text-decoration: none;
+}
+
+.side_menu .glyphicon {
+  color: white;
+  position: relative;
+}
+
+.fixed {
+  position: fixed;
+  top: 35%;
+}
+
+.side_menu_highlight {
+  border-left: 3px solid white;
+}
+
+.col-sm-4 h4 {
+  font-family: 'Playfair Display';
+  color: #F70707;
+}
+
+.btn-red {
+  background-color: #F70707;
+  color: #fff;
+}
+
+.btn-red:hover  {
+  background-color: #F70707;
+  color: #fff;
+}
+
+.btn-red:active {
+  background-color: #BD0C10;
+  color: #fff;
+}
+
+.centered {
+  margin: auto;
+}
+
+.footer {
+  background-color: #f5f5f5;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  border-top: 1px solid #E7E7E7;
+}
+
+.footer-right ul {
+  text-align: right;
+}
+
+.all-quotes th, td {
+  margin: 10px;
+  padding: 10px;
+  border-bottom: 1px solid #F0F0F0;
+}
+
+@media only screen and (max-width: 450px) {
+
+  .side-menu *{
+    display: none;
+  }
+
+  .navbar {
+    position: fixed;
+  }
+
+  h1 {
+    font-size: 22px;
+  }
+}
