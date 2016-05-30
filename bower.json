@@ -22,9 +22,7 @@
   ],
   "dependencies": {
     "bootstrap": "^3.3.6",
-    "smooth-scroll": "^1.0.1"
-  },
-  "devDependencies": {
+    "smooth-scroll": "^1.0.1",
     "handlebars": "^4.0.5"
   }
 }

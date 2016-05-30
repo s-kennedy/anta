@@ -1,0 +1,30 @@
+{
+  "name": "anta_static",
+  "version": "1.0.0",
+  "description": "commercial website for Anta Translation",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/s-kennedy/anta.git"
+  },
+  "keywords": [
+    "translation",
+    "toronto"
+  ],
+  "author": "Sharon Kennedy",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/s-kennedy/anta/issues"
+  },
+  "homepage": "https://github.com/s-kennedy/anta#readme",
+  "devDependencies": {
+    "grunt": "^1.0.1",
+    "grunt-bower-concat": "^1.0.0",
+    "grunt-contrib-concat": "^1.0.1",
+    "grunt-contrib-copy": "^1.0.0",
+    "grunt-contrib-handlebars": "^1.0.0"
+  }
+}
