@@ -22,7 +22,10 @@
   ],
   "dependencies": {
     "bootstrap": "^3.3.6",
-    "smooth-scroll": "^1.0.1",
+    "smooth-scroll": "https://github.com/cferdinandi/smooth-scroll.git#^9.1.4",
     "handlebars": "^4.0.5"
+  },
+  "resolutions": {
+    "smooth-scroll": "^9.1.4"
   }
 }

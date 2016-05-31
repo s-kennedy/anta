@@ -1,11 +1,11 @@
-fr: { 
+window.fr = { 
   anta: {
     index: {
       navigation: {
-        quote: "Contactez-nous"
-        company: "Notre entreprise"
-        services: "Nos services"
-        clients: "Nos clients"
+        quote: "Contactez-nous",
+        company: "Notre entreprise",
+        services: "Nos services",
+        clients: "Nos clients",
         rates: "Nos tarifs"
       },
       header: {

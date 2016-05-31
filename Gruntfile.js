@@ -10,6 +10,7 @@ module.exports = function(grunt) {
         },
         mainFiles: {
           bootstrap: 'dist/css/bootstrap.min.css',
+          'smooth-scroll': 'dist/js/smooth-scroll.min.js',
           handlebars: ['handlebars.min.js', 'handlebars.runtime.min.js']
         },
         bowerOptions: {
