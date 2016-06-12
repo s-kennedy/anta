@@ -58,10 +58,18 @@
       <div class="invisible_side_menu_static"></div>
       <div class="side_menu">
         <ul class="side_menu_links list-unstyled">
-          <li id="side_menu_company"><a href="#company" data-scroll>{{anta.index.navigation.company}}</a></li>
-          <li id="side_menu_services"><a href="#services" data-scroll>{{anta.index.navigation.services}}</a></li>
-          <li id="side_menu_clients"><a href="#clients" data-scroll>{{anta.index.navigation.clients}}</a></li>
-          <li id="side_menu_rates"><a href="#rates" data-scroll>{{anta.index.navigation.rates}}</a></li>
+          <li id="side_menu_company">
+            <span class="glyphicon glyphicon glyphicon-triangle-right" aria-hidden="true"></span>
+            <a href="#company" data-scroll>{{anta.index.navigation.company}}</a></li>
+          <li id="side_menu_services">
+            <span class="glyphicon glyphicon glyphicon-triangle-right" aria-hidden="true"></span>
+            <a href="#services" data-scroll>{{anta.index.navigation.services}}</a></li>
+          <li id="side_menu_clients">
+            <span class="glyphicon glyphicon glyphicon-triangle-right" aria-hidden="true"></span>
+            <a href="#clients" data-scroll>{{anta.index.navigation.clients}}</a></li>
+          <li id="side_menu_rates">
+            <span class="glyphicon glyphicon glyphicon-triangle-right" aria-hidden="true"></span>
+            <a href="#rates" data-scroll>{{anta.index.navigation.rates}}</a></li>
         </ul>    
       </div>
 <!-- /side menu -->
@@ -208,7 +216,7 @@
               <input type="file" name="document" class="form-control" id="document">
             </div>
             <div class="centered">
-              <button class="btn btn-red">{{anta.index.form.submit}}</button>
+              <button class="btn btn-red submit-btn">{{anta.index.form.submit}}</button>
             </div>
           </form>
 
@@ -223,8 +231,8 @@
 <!-- </div> container-fluid -->
 
 <!-- footer -->
-  <div class="footer text-muted col-md-12">
-    <div class="footer-left col-md-6">
+  <div class="footer text-muted col-md-12 col-sm-12">
+    <div class="footer-left col-md-6 col-sm-6">
       <ul id="contact" class="list-unstyled"> 
         <li><span class="glyphicon glyphicon-envelope" aria-hidden="true"></span>{{anta.index.contact_info.email}}</li>
         <li><span class="glyphicon glyphicon-earphone" aria-hidden="true"></span>{{anta.index.contact_info.phone}}</li>
@@ -232,12 +240,16 @@
       </ul>
     </div>
       
-    <div class="footer-right col-md-6">
+    <div class="footer-right col-md-6 col-sm-6">
       <ul id="address" class="list-unstyled">
       <li>{{anta.index.contact_info.address1}}</li>
       <li>{{anta.index.contact_info.address2}}</li>
       <li>{{anta.index.contact_info.address3}}</li> 
     </div>
 
+  </div>
+
+  <div class="copyright col-md-12 col-sm-12">
+    <p class="small text-muted">Copyright 2016  |  Website by <a href="https://www.linkedin.com/in/kennedysharon">Sharon Kennedy</a></p>
   </div>
 <!-- /footer -->

@@ -62,7 +62,7 @@ window.en = {
         submit: "Submit"
       },
       contact_info: {
-        address1: "2230 Bloor Street West, 2nd Floor",
+        address1: "2230 Bloor Street West, 2nd Floor, Toronto, ON",
         address2: "Toronto, Ontario, Canada",
         address3: "M6S 1N6",
         email: "anta@antatranslations.com",

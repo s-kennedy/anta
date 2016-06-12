@@ -73,7 +73,7 @@ module.exports = function(grunt) {
   grunt.loadNpmTasks('grunt-contrib-copy');
   grunt.loadNpmTasks('grunt-ftp-deploy');
 
-  grunt.registerTask('default', ['handlebars', 'bower_concat', 'concat', 'copy']);
-  grunt.registerTask('deploy', ['handlebars', 'bower_concat', 'concat', 'copy', 'ftp-deploy'])
+  grunt.registerTask('build', ['handlebars', 'bower_concat', 'concat', 'copy']);
+  grunt.registerTask('deploy', ['ftp-deploy'])
 
 };

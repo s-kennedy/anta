@@ -64,7 +64,10 @@ window.fr = {
       contact_info: {
         address1: "Rue 2230 Bloor Ouest, 2ème étage",
         address2: "Toronto, Ontario, Canada",
-        address3: "M6S 1N6"
+        address3: "M6S 1N6",
+        email: "anta@antatranslations.com",
+        phone: "(416) 766-4921",
+        fax: "(416) 760-9640"
       }
     }
   }

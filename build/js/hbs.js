@@ -18,13 +18,13 @@ this["Anta"]["Templates"]["index"] = Handlebars.template({"compiler":[7,">= 4.0.
     + alias2(alias1(((stack1 = ((stack1 = ((stack1 = (depth0 != null ? depth0.anta : depth0)) != null ? stack1.index : stack1)) != null ? stack1.header : stack1)) != null ? stack1.header_title : stack1), depth0))
     + "</h1>\n      <h2>"
     + alias2(alias1(((stack1 = ((stack1 = ((stack1 = (depth0 != null ? depth0.anta : depth0)) != null ? stack1.index : stack1)) != null ? stack1.header : stack1)) != null ? stack1.header_subtitle : stack1), depth0))
-    + "</h2>\n    </div>\n  </div>\n\n<!-- /jumbotron -->\n\n  \n  <div class=\"invisible_side_menu_fixed\"></div>\n\n  <div id=\"main\">\n\n<!-- side menu -->\n    <div class=\"row side_menu_container\">    \n      <div class=\"invisible_side_menu_static\"></div>\n      <div class=\"side_menu\">\n        <ul class=\"side_menu_links list-unstyled\">\n          <li id=\"side_menu_company\"><a href=\"#company\" data-scroll>"
+    + "</h2>\n    </div>\n  </div>\n\n<!-- /jumbotron -->\n\n  \n  <div class=\"invisible_side_menu_fixed\"></div>\n\n  <div id=\"main\">\n\n<!-- side menu -->\n    <div class=\"row side_menu_container\">    \n      <div class=\"invisible_side_menu_static\"></div>\n      <div class=\"side_menu\">\n        <ul class=\"side_menu_links list-unstyled\">\n          <li id=\"side_menu_company\">\n            <span class=\"glyphicon glyphicon glyphicon-triangle-right\" aria-hidden=\"true\"></span>\n            <a href=\"#company\" data-scroll>"
     + alias2(alias1(((stack1 = ((stack1 = ((stack1 = (depth0 != null ? depth0.anta : depth0)) != null ? stack1.index : stack1)) != null ? stack1.navigation : stack1)) != null ? stack1.company : stack1), depth0))
-    + "</a></li>\n          <li id=\"side_menu_services\"><a href=\"#services\" data-scroll>"
+    + "</a></li>\n          <li id=\"side_menu_services\">\n            <span class=\"glyphicon glyphicon glyphicon-triangle-right\" aria-hidden=\"true\"></span>\n            <a href=\"#services\" data-scroll>"
     + alias2(alias1(((stack1 = ((stack1 = ((stack1 = (depth0 != null ? depth0.anta : depth0)) != null ? stack1.index : stack1)) != null ? stack1.navigation : stack1)) != null ? stack1.services : stack1), depth0))
-    + "</a></li>\n          <li id=\"side_menu_clients\"><a href=\"#clients\" data-scroll>"
+    + "</a></li>\n          <li id=\"side_menu_clients\">\n            <span class=\"glyphicon glyphicon glyphicon-triangle-right\" aria-hidden=\"true\"></span>\n            <a href=\"#clients\" data-scroll>"
     + alias2(alias1(((stack1 = ((stack1 = ((stack1 = (depth0 != null ? depth0.anta : depth0)) != null ? stack1.index : stack1)) != null ? stack1.navigation : stack1)) != null ? stack1.clients : stack1), depth0))
-    + "</a></li>\n          <li id=\"side_menu_rates\"><a href=\"#rates\" data-scroll>"
+    + "</a></li>\n          <li id=\"side_menu_rates\">\n            <span class=\"glyphicon glyphicon glyphicon-triangle-right\" aria-hidden=\"true\"></span>\n            <a href=\"#rates\" data-scroll>"
     + alias2(alias1(((stack1 = ((stack1 = ((stack1 = (depth0 != null ? depth0.anta : depth0)) != null ? stack1.index : stack1)) != null ? stack1.navigation : stack1)) != null ? stack1.rates : stack1), depth0))
     + "</a></li>\n        </ul>    \n      </div>\n<!-- /side menu -->\n\n<!-- company section -->\n      <div class=\"section\" id=\"company\">\n      <div class=\"row\">\n        <div class=\"company inner_content\">\n        \n          <div id=\"company_title\"><h1>"
     + alias2(alias1(((stack1 = ((stack1 = ((stack1 = (depth0 != null ? depth0.anta : depth0)) != null ? stack1.index : stack1)) != null ? stack1.navigation : stack1)) != null ? stack1.company : stack1), depth0))
@@ -110,19 +110,19 @@ this["Anta"]["Templates"]["index"] = Handlebars.template({"compiler":[7,">= 4.0.
     + alias2(alias1(((stack1 = ((stack1 = ((stack1 = (depth0 != null ? depth0.anta : depth0)) != null ? stack1.index : stack1)) != null ? stack1.form : stack1)) != null ? stack1.comments : stack1), depth0))
     + "</label>\n              <textarea name=\"comments\" class=\"form-control\" id=\"comments\"></textarea>\n            </div>\n            <div class=\"form-group\">\n              <label for=\"document\">"
     + alias2(alias1(((stack1 = ((stack1 = ((stack1 = (depth0 != null ? depth0.anta : depth0)) != null ? stack1.index : stack1)) != null ? stack1.form : stack1)) != null ? stack1.file_input : stack1), depth0))
-    + "</label>\n              <input type=\"file\" name=\"document\" class=\"form-control\" id=\"document\">\n            </div>\n            <div class=\"centered\">\n              <button class=\"btn btn-red\">"
+    + "</label>\n              <input type=\"file\" name=\"document\" class=\"form-control\" id=\"document\">\n            </div>\n            <div class=\"centered\">\n              <button class=\"btn btn-red submit-btn\">"
     + alias2(alias1(((stack1 = ((stack1 = ((stack1 = (depth0 != null ? depth0.anta : depth0)) != null ? stack1.index : stack1)) != null ? stack1.form : stack1)) != null ? stack1.submit : stack1), depth0))
-    + "</button>\n            </div>\n          </form>\n\n        </div>\n      </div>\n    </div>\n<!-- /rates section -->\n\n</div> <!-- /main? -->\n      \n\n<!-- </div> container-fluid -->\n\n<!-- footer -->\n  <div class=\"footer text-muted col-md-12\">\n    <div class=\"footer-left col-md-6\">\n      <ul id=\"contact\" class=\"list-unstyled\"> \n        <li><span class=\"glyphicon glyphicon-envelope\" aria-hidden=\"true\"></span>"
+    + "</button>\n            </div>\n          </form>\n\n        </div>\n      </div>\n    </div>\n<!-- /rates section -->\n\n</div> <!-- /main? -->\n      \n\n<!-- </div> container-fluid -->\n\n<!-- footer -->\n  <div class=\"footer text-muted col-md-12 col-sm-12\">\n    <div class=\"footer-left col-md-6 col-sm-6\">\n      <ul id=\"contact\" class=\"list-unstyled\"> \n        <li><span class=\"glyphicon glyphicon-envelope\" aria-hidden=\"true\"></span>"
     + alias2(alias1(((stack1 = ((stack1 = ((stack1 = (depth0 != null ? depth0.anta : depth0)) != null ? stack1.index : stack1)) != null ? stack1.contact_info : stack1)) != null ? stack1.email : stack1), depth0))
     + "</li>\n        <li><span class=\"glyphicon glyphicon-earphone\" aria-hidden=\"true\"></span>"
     + alias2(alias1(((stack1 = ((stack1 = ((stack1 = (depth0 != null ? depth0.anta : depth0)) != null ? stack1.index : stack1)) != null ? stack1.contact_info : stack1)) != null ? stack1.phone : stack1), depth0))
     + "</li>\n        <li><span class=\"glyphicon glyphicon-open-file\" aria-hidden=\"true\"></span>"
     + alias2(alias1(((stack1 = ((stack1 = ((stack1 = (depth0 != null ? depth0.anta : depth0)) != null ? stack1.index : stack1)) != null ? stack1.contact_info : stack1)) != null ? stack1.fax : stack1), depth0))
-    + "</li>\n      </ul>\n    </div>\n      \n    <div class=\"footer-right col-md-6\">\n      <ul id=\"address\" class=\"list-unstyled\">\n      <li>"
+    + "</li>\n      </ul>\n    </div>\n      \n    <div class=\"footer-right col-md-6 col-sm-6\">\n      <ul id=\"address\" class=\"list-unstyled\">\n      <li>"
     + alias2(alias1(((stack1 = ((stack1 = ((stack1 = (depth0 != null ? depth0.anta : depth0)) != null ? stack1.index : stack1)) != null ? stack1.contact_info : stack1)) != null ? stack1.address1 : stack1), depth0))
     + "</li>\n      <li>"
     + alias2(alias1(((stack1 = ((stack1 = ((stack1 = (depth0 != null ? depth0.anta : depth0)) != null ? stack1.index : stack1)) != null ? stack1.contact_info : stack1)) != null ? stack1.address2 : stack1), depth0))
     + "</li>\n      <li>"
     + alias2(alias1(((stack1 = ((stack1 = ((stack1 = (depth0 != null ? depth0.anta : depth0)) != null ? stack1.index : stack1)) != null ? stack1.contact_info : stack1)) != null ? stack1.address3 : stack1), depth0))
-    + "</li> \n    </div>\n\n  </div>\n<!-- /footer -->";
+    + "</li> \n    </div>\n\n  </div>\n\n  <div class=\"copyright col-md-12 col-sm-12\">\n    <p class=\"small text-muted\">Copyright 2016  |  Website by <a href=\"https://www.linkedin.com/in/kennedysharon\">Sharon Kennedy</a></p>\n  </div>\n<!-- /footer -->";
 },"useData":true});

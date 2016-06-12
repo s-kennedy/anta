@@ -21,7 +21,7 @@ label {
   font-weight: 300;
 }
 
-.glyphicon {
+.footer.glyphicon {
   padding: 0 15px;
 }
 
@@ -56,19 +56,10 @@ label {
   bottom: 50px;
 }
 
-.flash-messages {
-  width: 100%;
-  height: 40px;
-  background-color: #F70707;
-  color: #fff;
-  text-align: center;
-  padding: 10px;
-}
-
 #main h1 {
   color: #F70707;
   font-family: 'Playfair Display', serif;
-  line-height: 2.0;
+  line-height: 3.0;
   text-align: center;
 }
 
@@ -79,11 +70,11 @@ body {
 .company .glyphicon {
   font-size: 44px;
   color: #F70707;
-  padding-left: 25%;
 }
 
 .company li {
-  margin: 30px 0;
+  margin: 4em 0;
+  text-align: center;
 }
 
 .section {
@@ -116,7 +107,7 @@ body {
 }
 
 .invisible_side_menu_fixed {
-  width: 120px;
+  width: 160px;
   height: 150px;
   background: transparent;
   position: fixed;
@@ -125,7 +116,7 @@ body {
 }
 
 .invisible_side_menu_static {
-  width: 120px;
+  width: 160px;
   height: 150px;
   background: transparent;
   position: absolute;
@@ -135,9 +126,8 @@ body {
 
 .side_menu {
   background-color: #F70707;
-  width: 120px;
-
-  border-radius: 10px 0 0 10px;
+  width: 160px;
+  border-radius: 0;
   position: absolute;
   right: 0px;
   top: 9%;
@@ -162,22 +152,22 @@ body {
 }
 
 .side_menu .glyphicon {
-  color: white;
+  color: transparent;
   position: relative;
 }
 
 .fixed {
   position: fixed;
-  top: 35%;
 }
 
 .side_menu_highlight {
-  border-left: 3px solid white;
+  color: #fff;
 }
 
 .col-sm-4 h4 {
   font-family: 'Playfair Display';
   color: #F70707;
+  margin: 1.5em 0;
 }
 
 .btn-red {
@@ -200,20 +190,29 @@ body {
 }
 
 .footer {
-  background-color: #f5f5f5;
-  padding-top: 10px;
-  padding-bottom: 10px;
-  border-top: 1px solid #E7E7E7;
+  background-color: #000011;
+  padding: 3em 1em;
 }
 
 .footer-right ul {
   text-align: right;
 }
 
+.copyright {
+  text-align: center;
+  background-color: #f8f8f8;
+  border-top: 1px solid #e7e7e7;
+  padding: 10px 0;
+}
+
 .all-quotes th, td {
   margin: 10px;
   padding: 10px;
   border-bottom: 1px solid #F0F0F0;
+}
+
+.btn {
+  border-radius: 0;
 }
 
 /*@media (max-width: 768px) {

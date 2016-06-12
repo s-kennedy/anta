@@ -42,29 +42,34 @@ $(document).ready(function () {
 
     $(window).scroll(function() {
       if ($(".side_menu").offset().top <= $('.invisible_side_menu_fixed').offset().top) {
-        $(".side_menu").addClass("fixed");
+        $(".side_menu").addClass("fixed")
+        $(".side_menu").offset({top: $('.invisible_side_menu_fixed').offset().top })
       }
       if ($(".side_menu").offset().top < $('.invisible_side_menu_static').offset().top) {
-        $(".side_menu").removeClass("fixed"); 
+        $(".side_menu").removeClass("fixed")
+        $(".side_menu").offset({top: $('.invisible_side_menu_static').offset().top });
       };
+      if (($(".invisible_side_menu_fixed").offset().top + $(".invisible_side_menu_fixed").height()) > ($(".submit-btn").offset().top + $(".submit-btn").height())) {
+        $(".side_menu").offset({top: ($(".submit-btn").offset().top - ($(".side_menu").height() - $(".submit-btn").height()))})
+      }
     });
 
     $(window).scroll(function() {
       if ($(".side_menu").offset().top >= $('.company').offset().top) {
-        $(".side_menu li").removeClass("side_menu_highlight");
-        $("#side_menu_company").addClass("side_menu_highlight");
+        $(".side_menu span.glyphicon").removeClass("side_menu_highlight");
+        $("#side_menu_company span.glyphicon").addClass("side_menu_highlight");
       };
       if ($(".side_menu").offset().top >= $('.services').offset().top) {
-        $(".side_menu li").removeClass("side_menu_highlight");
-        $("#side_menu_services").addClass("side_menu_highlight");
+        $(".side_menu span.glyphicon").removeClass("side_menu_highlight");
+        $("#side_menu_services span.glyphicon").addClass("side_menu_highlight");
       };
       if ($(".side_menu").offset().top >= $('.clients').offset().top) {
-        $(".side_menu li").removeClass("side_menu_highlight");
-        $("#side_menu_clients").addClass("side_menu_highlight");
+        $(".side_menu span.glyphicon").removeClass("side_menu_highlight");
+        $("#side_menu_clients span.glyphicon").addClass("side_menu_highlight");
       };
       if ($(".side_menu").offset().top >= $('.rates').offset().top) {
-        $(".side_menu li").removeClass("side_menu_highlight");
-        $("#side_menu_rates").addClass("side_menu_highlight");
+        $(".side_menu span.glyphicon").removeClass("side_menu_highlight");
+        $("#side_menu_rates span.glyphicon").addClass("side_menu_highlight");
       };
 
     });
