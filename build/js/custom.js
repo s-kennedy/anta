@@ -1,8 +1,4 @@
-$(function() {
-
-  $('body').append(Anta.Templates.index(window.en))
-
-});function detectLanguage() {
+function detectLanguage() {
   var storedLang = localStorage.getItem('lang')
   var browserLang = navigator.languages ? navigator.languages[0] : (navigator.language || navigator.userLanguage)
   var lang = storedLang || browserLang.split('-')[0]

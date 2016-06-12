@@ -130,7 +130,7 @@ body {
   background: transparent;
   position: absolute;
   right: 0px;
-  top: 33%;
+  top: 9%;
 }
 
 .side_menu {
@@ -140,7 +140,7 @@ body {
   border-radius: 10px 0 0 10px;
   position: absolute;
   right: 0px;
-  top: 33%;
+  top: 9%;
   padding-top: 5px;
   padding-bottom: 5px;
   padding-left: 8px;
@@ -216,9 +216,9 @@ body {
   border-bottom: 1px solid #F0F0F0;
 }
 
-@media only screen and (max-width: 450px) {
+/*@media (max-width: 768px) {
 
-  .side-menu *{
+  .side-menu {
     display: none;
   }
 
@@ -229,4 +229,4 @@ body {
   h1 {
     font-size: 22px;
   }
-}
+}*/

@@ -171,7 +171,10 @@
               <p>{{anta.index.rates.rates_intro2}}</p>
           </div>
 
-          <form action="https://getsimpleform.com/messages?form_api_token=41618457d45ad9b4b9d83841d182f499" method="POST">
+          <form action="https://getsimpleform.com/messages?form_api_token=41618457d45ad9b4b9d83841d182f499" method="POST" enctype="multipart/form-data">
+
+            <input type='hidden' name='redirect_to' value='http://antatranslations.com/' />
+
             <div class="form-group">
               <label for="name">{{anta.index.form.name}}</label>
               <input type="text" name="name" class="form-control" id="name" required>
@@ -182,11 +185,11 @@
             </div>
             <div class="form-group">
               <label for="langfrom">{{anta.index.form.translate_from}}</label>
-              <input type="text" name="langfrom" class="form-control" id="language-from" required>
+              <input type="text" name="langfrom" class="form-control" id="language-from">
             </div>
             <div class="form-group">
               <label for="langto">{{anta.index.form.translate_to}}</label>
-              <input type="text" name="langto" class="form-control" id="language-to" required>
+              <input type="text" name="langto" class="form-control" id="language-to">
             </div>
             <div class="form-group">
               <label for="email">{{anta.index.form.email}}</label>

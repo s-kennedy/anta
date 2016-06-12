@@ -52,6 +52,18 @@ module.exports = function(grunt) {
           { expand: true, flatten: true, src: ['src/*.html'], dest: 'build'},
         ]
       }
+    },
+    'ftp-deploy': {
+      build: {
+        auth: {
+          host: 'ftp.antatranslations.com',
+          port: 21,
+          authKey: 'admin'
+        },
+        src: 'build',
+        dest: '/',
+        exclusions: ['build/**/.DS_Store', 'build/**/Thumbs.db']
+      }
     }
   });
 
@@ -59,7 +71,9 @@ module.exports = function(grunt) {
   grunt.loadNpmTasks('grunt-contrib-concat');
   grunt.loadNpmTasks('grunt-contrib-handlebars');
   grunt.loadNpmTasks('grunt-contrib-copy');
+  grunt.loadNpmTasks('grunt-ftp-deploy');
 
   grunt.registerTask('default', ['handlebars', 'bower_concat', 'concat', 'copy']);
+  grunt.registerTask('deploy', ['handlebars', 'bower_concat', 'concat', 'copy', 'ftp-deploy'])
 
 };
