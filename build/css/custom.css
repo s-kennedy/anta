@@ -21,7 +21,7 @@ label {
   font-weight: 300;
 }
 
-.footer.glyphicon {
+.footer .glyphicon {
   padding: 0 15px;
 }
 
@@ -161,7 +161,7 @@ body {
 }
 
 .side_menu_highlight {
-  color: #fff;
+  color: #fff !important;
 }
 
 .col-sm-4 h4 {
