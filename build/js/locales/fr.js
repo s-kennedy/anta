@@ -6,7 +6,8 @@ window.fr = {
         company: "Notre entreprise",
         services: "Nos services",
         clients: "Nos clients",
-        rates: "Nos tarifs"
+        rates: "Nos tarifs",
+        language: "Langue"
       },
       header: {
         header_title: "Traduction de classe mondiale",

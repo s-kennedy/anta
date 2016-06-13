@@ -2,6 +2,7 @@
 body {
   position: relative;
   font-family: 'Roboto', sans-serif;
+  background: transparent;
 }
 
 p, li {
@@ -21,14 +22,11 @@ label {
   font-weight: 300;
 }
 
-.footer .glyphicon {
-  padding: 0 15px;
-}
 
 .jumbotron { 
   height: 500px;
   color: #fff;
-  background: url(https://upload.wikimedia.org/wikipedia/commons/thumb/6/61/Flat_earth_night.png/1280px-Flat_earth_night.png) no-repeat center center fixed; 
+  background: url(../images/background.png) no-repeat center center fixed; 
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -56,15 +54,18 @@ label {
   bottom: 50px;
 }
 
+.section {
+  width: 100%;
+  margin-left: 0;
+  padding-bottom: 40px;
+  padding-top: 40px;
+}
+
 #main h1 {
   color: #F70707;
   font-family: 'Playfair Display', serif;
   line-height: 3.0;
   text-align: center;
-}
-
-body {
-  background: transparent;
 }
 
 .company .glyphicon {
@@ -77,12 +78,6 @@ body {
   text-align: center;
 }
 
-.section {
-  width: 100%;
-  margin-left: 0;
-  padding-bottom: 40px;
-  padding-top: 40px;
-}
 
 #services, #rates {
   background-color: #EEEEEE;
@@ -100,6 +95,7 @@ body {
 
 .navbar {
   margin-bottom: 0;
+  z-index: 9999;
 }
 
 .side_menu_container{
@@ -164,7 +160,7 @@ body {
   color: #fff !important;
 }
 
-.col-sm-4 h4 {
+.company-features h4 {
   font-family: 'Playfair Display';
   color: #F70707;
   margin: 1.5em 0;
@@ -194,8 +190,12 @@ body {
   padding: 3em 1em;
 }
 
-.footer-right ul {
+.footer-right {
   text-align: right;
+}
+
+.footer .glyphicon {
+  padding-right: 15px;
 }
 
 .copyright {
@@ -205,27 +205,40 @@ body {
   padding: 10px 0;
 }
 
-.all-quotes th, td {
-  margin: 10px;
-  padding: 10px;
-  border-bottom: 1px solid #F0F0F0;
-}
-
 .btn {
   border-radius: 0;
 }
 
-/*@media (max-width: 768px) {
+.lang-select {
+  padding: 0 3px;
+}
+.lang-select:hover {
+  font-weight: 400;
+}
 
-  .side-menu {
+@media (max-width: 992px) { 
+
+  .side_menu {
     display: none;
   }
 
-  .navbar {
-    position: fixed;
+  h1 {
+    font-size: 26px;
   }
 
-  h1 {
-    font-size: 22px;
+}
+
+@media (max-width: 768px) {
+  .footer-right {
+    text-align: left;
   }
-}*/
+  .jumbotron {
+    height: 300px;
+  }
+  .jumbotron h1 {
+    font-size: 36px;
+  }
+  .jumbotron h2 {
+    font-size: 26px;
+  }
+}

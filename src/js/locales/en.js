@@ -6,7 +6,8 @@ window.en = {
         company: "Our Company",
         services: "Our Services",
         clients: "Our Clients",
-        rates: "Our Rates"
+        rates: "Our Rates",
+        language: "Language"
       },
       header: {
         header_title: "World-class translation",

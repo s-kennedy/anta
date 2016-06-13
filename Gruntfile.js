@@ -9,7 +9,7 @@ module.exports = function(grunt) {
           'css': 'build/css/_bower.css'
         },
         mainFiles: {
-          bootstrap: 'dist/css/bootstrap.min.css',
+          bootstrap: ['dist/css/bootstrap.min.css', 'dist/js/bootstrap.min.js'],
           'smooth-scroll': 'dist/js/smooth-scroll.min.js',
           handlebars: ['handlebars.min.js', 'handlebars.runtime.min.js']
         },
